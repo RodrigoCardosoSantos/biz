@@ -1,0 +1,83 @@
+.headerTop{
+    padding-top: 10px;
+}
+.espaco{
+    padding-right:20px; 
+    
+}
+LI{
+    padding-right: 50px;
+}
+.imgDestaque{
+    height:260px; 
+    width:60%;
+   
+}
+.card{
+    border:none;
+}
+.img-slider {
+
+/*max-width: 600px;*/
+height: 400px;
+max-width: calc(100% - 80px);
+
+}
+.seta{
+    width:20px;
+    height: 20px  
+}
+.formaPagamentos{
+    width:70px;
+    height: 30px    
+}
+@media only screen and (max-width: 750px) {
+    .img-slider {
+            height: auto;
+            max-width: calc(100% - 80px);
+    }
+}
+
+.valorDesconto{
+    font-weight: bold;
+    text-decoration:line-through;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 15px;
+    color: #686868
+    
+}
+.valor{
+    font-weight: bold;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 18px;
+    color: #bd2130
+    
+}
+.valorParcelado{
+    font-weight: bold;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 14px;
+    color: #686868
+}
+.destaque{
+    font-weight: bold;
+    font-size: 22px;
+}
+.indisponivel{
+    max-width: 50%;
+}
+
+.disabled {
+ 
+  cursor: default;
+}
+
+.slide-seletor{
+
+max-width: 150px;
+
+max-height: 100px;
+padding: 5px;
+
+}
+
